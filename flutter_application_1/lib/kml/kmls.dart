@@ -78,3 +78,10 @@ LookAtEntity look_at = LookAtEntity(
   tilt: 45,
   heading: 180
 );
+LookAtEntity look_at_mumbai = LookAtEntity(
+  lng: 72.8777,
+  lat: 19.0760,
+  range: 500,
+  tilt: 45,
+  heading: 180
+);

@@ -88,7 +88,7 @@ class _HomePageState extends State<HomePage>{
                     Container(
                        margin: EdgeInsets.all(8),
                       child: TextButton(onPressed: (){
-                        connection.sendKmlnew(KMLEntity(name: "kml_new", content: kmltwo));
+                        connection.sendKmlandFly(KMLEntity(name: "kml_new", content: kmltwo),look_at_mumbai);
                                    
                       },
                       style: ButtonStyle(
